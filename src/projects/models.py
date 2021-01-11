@@ -7,4 +7,5 @@ class Project(models.Model):
     details = models.TextField()
     onGoing = models.BooleanField(default=False)
 
-
+    def get_absolute_url(self):
+        return "" #reverse("projects:project-detail", kwargs={"id":self.id})

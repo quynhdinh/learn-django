@@ -9,5 +9,4 @@ class ProjectModelForm(forms.ModelForm):
             'title',
             'intro',
             'details',
-            'on going',
         ]
